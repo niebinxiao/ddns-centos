@@ -1,2 +1,2 @@
-# ddns-centos-rpm
-方便用的阿里云DDNS
+# Aliyun-DDNS-CentOS-RPM
+使用超简单的阿里云DDNS
