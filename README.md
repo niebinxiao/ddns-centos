@@ -1,8 +1,8 @@
 # Aliyun-DDNS-CentOS-RPM
-使用超简单的阿里云DDNS
+使用超简单的阿里云DDNS, 省的折腾
 
 ## 说明
-适合家用服务器,前提是分配了公网IP, 阿里云申请了域名,痛点是域名变幻莫测
+适合家用服务器,前提是分配了公网IP,阿里云申请了域名,创建了RAM AccessKey,痛点是域名变幻莫测
 
 ## 安装
 ```
@@ -13,10 +13,10 @@ rpm -ivh ddns-1.0-release.noarch.rpm
 ```
 vim /etc/ddns/conf/ddns.conf
 
-AccessKeyId=
-AccessSecret=
-DomainName=主域名
-RRKeyWord=子域名
+AccessKeyId= # AccessKeyId
+AccessSecret= # AccessSecret
+DomainName= # 主域名
+RRKeyWord= # 子域名
 Type=A
 RunOnMinutes=5 # 多长时间运行一次
 
@@ -27,13 +27,13 @@ MainEncipher=tls # 加密协议 ssl or tls
 MainProtocol=smtp # 通讯协议 smtp or pop3
 MainPort=25 # 通讯端口
 MailAccout=443753501@qq.com # 邮箱账号
-MailPassword=密码
+MailPassword= # 密码
 MailReceivers=443753501@qq.com # 接收人邮箱地址
 ```
 
 
 ## 使用
-完事了, 自动启动, 热更新, 什么都不用做, 日志在 /etc/ddns/log/ddns.log
+完事了, 自动启动, 热更新, 日志在 /etc/ddns/log/ddns.log
 
 
 
