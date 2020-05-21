@@ -1,4 +1,4 @@
-# Aliyun-DDNS-CentOS-RPM
+# Aliyun-dDNS-CentOS
 使用超简单的阿里云DDNS, 省的折腾
 
 ## 说明
