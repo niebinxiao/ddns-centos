@@ -9,7 +9,7 @@
 
 ## 安装
 ```
-rpm -ivh https://github.com/niebinxiao/ddns-centos-rpm/releases/download/v1.0-alpha/ddns-1.0-release.noarch.rpm
+rpm -ivh https://github.com/niebinxiao/ddns-centos/releases/download/v1.0-alpha/ddns-1.0-release.noarch.rpm
 ```
 
 ## 配置
