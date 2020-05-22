@@ -34,13 +34,22 @@ MailPassword= # 密码
 MailReceivers=443753501@qq.com # 接收人邮箱地址
 ```
 
-
 ## 使用
 自动启动, 热更新, 日志在 /etc/ddns/log/ddns.log
 ```
 tail -f /etc/ddns/log/ddns.log
-2020-05-22 04:02:06.990 [main] ERROR cloud.tools.aliyun.sdk.tool.SDKTools - AccessKeyId和AccessSecret未配置或配置异常
-2020-05-22 04:03:08.160 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 检测结果: [当前公网IP: 157.0.xx.xxx, 当前域名解析IP: 169.x.xx.87]
-2020-05-22 04:03:08.589 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - {"recordId":"19738875704xxx","requestId":"xxxxx-E2F4-4729-A77A-xxxxxx"}
-2020-05-22 04:03:08.589 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 解析域名已修改
+2020-05-23 07:02:51.638 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - DDNS服务启动成功
+2020-05-23 07:02:51.651 [main] ERROR cloud.tools.aliyun.sdk.tool.SDKTools - AccessKeyId和AccessSecret未配置或配置异常
+2020-05-23 07:03:01.650 [Thread-0] INFO  cloud.tools.aliyun.sdk.tool.SDKTools - 检测到配置文件有更新, 正在重新加载
+2020-05-23 07:04:00.435 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 检测结果: [域名: isp.xxx.com,当前公网IP: 157.0.xx.210, 当前域名解析IP: 157.0.xx.210]
+2020-05-23 07:04:01.654 [Thread-0] INFO  cloud.tools.aliyun.sdk.tool.SDKTools - 检测到配置文件有更新, 正在重新加载
+2020-05-23 07:09:01.276 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 检测结果: [域名: bms.xxx.com,当前公网IP: 157.0.xx.210, 当前域名解析IP: 157.0.xx.21]
+2020-05-23 07:09:01.715 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 解析域名已修改
+2020-05-23 07:10:03.914 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 检测结果: [域名: bms.xxx.com,当前公网IP: 157.0.xx.210, 当前域名解析IP: 157.0.xx.210]
+2020-05-23 07:11:04.722 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 检测结果: [域名: bms.xxx.com,当前公网IP: 157.0.xx.210, 当前域名解析IP: 157.0.xx.210]
+2020-05-23 07:11:51.693 [Thread-0] INFO  cloud.tools.aliyun.sdk.tool.SDKTools - 检测到配置文件有更新, 正在重新加载
+2020-05-23 07:12:05.520 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 检测结果: [域名: isp.xxx.com,当前公网IP: 157.0.xx.210, 当前域名解析IP: 157.0.xx.210]
+2020-05-23 07:12:31.698 [Thread-0] INFO  cloud.tools.aliyun.sdk.tool.SDKTools - 检测到配置文件有更新, 正在重新加载
+2020-05-23 07:13:06.303 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 检测结果: [域名: isp.xxx.com,当前公网IP: 157.0.xx.210, 当前域名解析IP: 157.0.xx.210]
+2020-05-23 07:16:07.096 [main] INFO  cloud.tools.aliyun.sdk.ddns.DDNS - 检测结果: [域名: isp.xxx.com,当前公网IP: 157.0.xx.210, 当前域名解析IP: 157.0.xx.210]
 ```
